@@ -9,7 +9,7 @@ st.set_page_config(page_title="Customer Churn & ROI Dashboard", layout="wide")
 
 st.title(" Customer Churn, Segmentation & ROI Simulator Dashboard")
 
-# 2. Load all saved model and data artifacts using joblib
+# 2. Loading all saved model and data artifacts using joblib
 @st.cache_resource
 def load_artifacts():
     model = joblib.load("churn_lgbm_model.pkl")
@@ -46,6 +46,6 @@ fin_col1.metric("Total Campaign Cost", f"${total_campaign_cost:,.2f}")
 fin_col2.metric("Saved Annual Revenue", f"${expected_revenue_saved:,.2f}")
 fin_col3.metric("Net Projected ROI", f"${expected_revenue_saved - total_campaign_cost:,.2f}")
 
-# 6. Display Customer Data & Clusters
+# 6. Displaying Customer Data & Clusters
 st.subheader(" Customer Segmentation Overview")
 st.dataframe(df[["CustomerID", "Tenure Months", "Monthly Charges", "CLV", "Segment"]].head(10))
