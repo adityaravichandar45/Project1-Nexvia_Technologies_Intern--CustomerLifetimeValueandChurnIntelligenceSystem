@@ -1,4 +1,4 @@
-# Project1-Nexvia_Technologies_Intern--CustomerChurnPrediction
+# Project1-Nexvia_Technologies_Intern--Customer Lifetime Value and Churn Intelligence System
 # End-to-End Customer Churn Prediction, Uplift Modeling & ROI Simulator
 
 An enterprise-grade machine learning and causal inference pipeline built to predict customer churn, estimate customer lifetime, maximize retention campaign efficiency through uplift modeling, and evaluate financial impact via an interactive Streamlit dashboard.
