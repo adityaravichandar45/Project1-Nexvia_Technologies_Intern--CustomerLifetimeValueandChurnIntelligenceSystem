@@ -30,6 +30,8 @@ Customer churn is a critical challenge for subscription-based businesses. This p
 
 ## Live Demo
  Deployed  streamlit app :- https://ccpr-ar.streamlit.app/
+
+ Note: when you click the above app link. It will take sometime for the app to load
  
 
 ---
